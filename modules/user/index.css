@@ -1,0 +1,13 @@
+&{
+  /* root */ 
+  margin: 40px 0 0;
+}
+
+.name{
+  color: red;
+}
+
+p.desc{
+  color: #ddd;
+}
+

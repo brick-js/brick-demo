@@ -1,0 +1,22 @@
+{
+  "name": "brick-demo",
+  "version": "2.0.0",
+  "description": "Minimal demo for brick.js",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harttle/brick-demo"
+  },
+  "author": "harttle",
+  "homepage": "https://github.com/harttle/brick-demo#readme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harttle/brick-demo/issues"
+  },
+  "dependencies": {
+    "brick-liquid": "^1.0.3",
+    "brick.js": ">=1.1.2",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1"
+  }
+}

@@ -1,0 +1,11 @@
+{%extend 'default'%}
+
+<div class="container">
+
+  <h2>{{ title }}</h2>
+
+  {% for user in users %}
+    {% include "user" role="admin" %}
+  {% endfor %}
+
+</div>
