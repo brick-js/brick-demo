@@ -1,6 +1,6 @@
 {
   "name": "brick-demo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Minimal demo for brick.js",
   "main": "app.js",
   "repository": {
@@ -14,7 +14,7 @@
     "url": "https://github.com/harttle/brick-demo/issues"
   },
   "dependencies": {
-    "brick-liquid": "^1.0.3",
+    "brick-liquid": "^1.1.0",
     "brick.js": ">=1.1.2",
     "express": "~4.13.1",
     "morgan": "~1.6.1"
