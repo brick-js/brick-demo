@@ -1,5 +1,8 @@
 # brick-demo
 
+[![NPM version](https://img.shields.io/npm/v/brick-demo.svg?style=flat)](https://www.npmjs.org/package/brick-demo)
+[![Dependency manager](https://david-dm.org/brick-js/brick-demo.png)](https://david-dm.org/brick-js/brick-demo)
+
 Minimal [brick.js][brk] demo
 
 # Run
@@ -9,4 +12,4 @@ Minimal [brick.js][brk] demo
 3. `node app.js`
 4. Open <http://localhost:3000>
 
-[brk]: https://github.com/harttle/brick.js
+[brk]: https://github.com/brick-js/brick.js
