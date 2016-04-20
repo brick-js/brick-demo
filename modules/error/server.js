@@ -1,5 +1,5 @@
 
-exports.resolver = function(req, done, fail){
+exports.view = function(req, done, fail){
     var err = this.context.error;
     console.error(err);
     done({

@@ -3,11 +3,17 @@ var path = require('path');
 var logger = require('morgan');
 var brickJs = require('brick.js');
 var Liquid = require('brick-liquid');
+var less = require('brick-less');
 
 var brk = brickJs({
     root: path.join(__dirname, 'modules'),
-    engine: new Liquid()
+    css: {
+        entry: 'index.less'
+    }
 });
+
+brk.engine('html', new Liquid());
+brk.processor('less', less());
 
 var app = express();
 app.use(logger('dev'));
