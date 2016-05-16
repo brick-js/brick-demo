@@ -5,11 +5,27 @@
 
 Minimal [brick.js][brk] demo
 
-# Run
+## Install
 
-1. Clone this repo
-2. `cd brick-demo && npm install`
-3. `node app.js`
-4. Open <http://localhost:3000>
+```bash
+# Clone
+git clone git@github.com:brick-js/brick-demo.git`
+# Install Dependencies
+cd brick-demo && npm install
+npm install -g brick-asset
+```
+
+## Run
+
+```bash
+# Enter 
+cd brick-demo
+# Generate public/site.css, public/site.js
+brick-asset all
+# Run app
+node app.js
+```
+
+Open <http://localhost:3000>
 
 [brk]: https://github.com/brick-js/brick.js

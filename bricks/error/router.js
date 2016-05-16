@@ -1,6 +1,6 @@
 
-exports.view = function(req, done, fail){
-    var err = this.context.error;
+exports.get = function(req, done, fail){
+    var err = this.error;
     console.error(err);
     done({
         message: err.message || err,
